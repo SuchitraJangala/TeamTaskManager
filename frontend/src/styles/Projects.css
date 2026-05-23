@@ -1,0 +1,92 @@
+.projects-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.project-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-form input,
+.project-form textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.project-form button {
+  background-color: #ff7a00;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.project-form button:hover {
+  background-color: #e86a00;
+}
+
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.project-table th,
+.project-table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+}
+
+.project-table th {
+  background-color: #f5f5f5;
+}
+
+.project-table button {
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.project-table button:hover {
+  background-color: #d93636;
+}
+
+/* Dark mode */
+.dark .card {
+  background: #2a2a2a;
+  color: #f5f5f5;
+}
+
+.dark .project-form input,
+.dark .project-form textarea {
+  background-color: #3a3a3a;
+  color: #f5f5f5;
+  border: 1px solid #555;
+}
+
+.dark .project-table th {
+  background-color: #444;
+  color: #f5f5f5;
+}
+
+.dark .project-table td {
+  border: 1px solid #555;
+}
